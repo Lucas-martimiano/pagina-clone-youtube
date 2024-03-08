@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 110vh;
+}
+/* Área de navegação superior */
+.container {
+    box-sizing: content-box;
+    width: 93vw;
+    height: 50px;
+    padding: 10px 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Área de navegação - Icones do canto superior esquerdo */
+.menu {
+    width: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15%;
+    align-items: center ;
+}
+
+
+.menu .logotipo-youtube{
+    display: inline;
+    height: 30px;
+}
+
+/* Área de navegação - Icones do canto superior direito */
+
+.opções {
+    width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50%;
+    margin-right: 40px;
+}
+
+/* Área Principal */
+
+.container-geral {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 90px;
+    gap: 50px;
+}
+
+/* Área de assistir o vídeo */
+
+.container-video {
+    width: 1100px;
+    height: 820px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.video {
+    width: 100%;
+    height: 80%;
+}
+
+.video img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-video {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 42px;
+}
+
+.menu-canal {
+    font-size: 14px;
+    width: 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-canal span {
+    font-weight: 600;
+}
+
+
+.menu-botao-inscrever button {
+    background-color: #c4302b;
+    color: white;
+    text-transform: uppercase;
+    width: 160px;
+    height: 42px;
+    border: none;
+    border-radius: 2px;
+}
+
+.menu-botao-inscrever button:active {
+    border: 2px solid black;
+}
+
+.menu-botao-like {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-botao-like p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-botao-dislike {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-botao-dislike p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-botao-compartilhar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-botao-compartilhar p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-botao-download {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-botao-download p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.titulo-video {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titulo-descricao {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.descricao {
+    width: 510px;
+    font-size: 15px;
+}
+
+/* Área de escolha de vídeos */
+
+.container-escolha-videos {
+    width: 580px;
+    height: 950px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.container-escolha-videos div img {
+    height: 110px;
+    width: 180px;
+}
+
+.video1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.video1 p {
+    font-size: 14px;
+}
+
+.video1 p span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.video2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.video2 p {
+    font-size: 14px;
+}
+
+.video2 p span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.video3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.video3 p {
+    font-size: 14px;
+}
+
+.video3 p span {
+    font-size: 15px;
+    font-weight: 600;
+}
